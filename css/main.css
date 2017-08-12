@@ -1,0 +1,246 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    }
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+header {
+    background: url(../img/first-bg.jpg) no-repeat center top / cover;
+    padding-bottom: 160px;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 41px;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-top: 45px;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+    font-size: 14px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.titles_first {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 180px;  
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+
+.button {
+    background: #fed136;
+    color: #484543;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0px auto;
+    text-decoration:none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.title {
+    padding-top: 115px;
+}
+
+.title h2 {
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+margin: 0;
+}
+
+.title p {
+color: #777777;
+text-align: center;
+font-size: 16px;
+margin-top: 5px;
+}
+
+.sevices {
+    margin-top: 80px; 
+}
+
+.services_item {
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+.services_item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.services_item p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.55em;
+}
+
+.services_item:last-child {
+    float: right;
+}
+
+.services_item:nth-child(2) {
+    margin-left: 60px;
+}
+
+#services{
+    padding-bottom: 120px; 
+}
+
+#portfolio{
+    background: #f7f7f7
+    padding-bottom: 120px;
+}
+
+.works {
+    margin-top: 70px;
+}
+
+.works img {
+    float: left;
+}
+
+.works img:nth-child(2) {
+    margin-left: 29px;
+}
+
+.works img:last-child {
+    float: right;
+}
+
+.about_us {
+   text-align: center;
+   display: inline-block;
+   margin-right: calc(50% - 91px);
+   margin-top: 80px; 
+}
+
+.about_us img {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.about_text {
+    padding: 0;
+    margin: 0;
+    margin-right: 224px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+  }
+
+  .about_text h3 {
+      font-size: 18pt;
+  }
+
+.about_text p {
+font-size: 14pt;
+color: #777777;
+margin-top: 21px;
+}
+
+.foto_about {
+    float: right;
+    text-align: center;
+}
+
+/*Текст справа*/
+.about_us_right {
+   text-align: center;
+   display: inline-block;
+   margin-left: calc(50% - 91px);
+   margin-top: 80px; 
+}
+
+.about_us_right img {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.about_text_right {
+    padding: 0;
+    margin: 0;
+    margin-left: 224px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+
+  .about_text_right h3 {
+      font-size: 18pt;
+  }
+
+.about_text_right p {
+font-size: 14pt;
+color: #777777;
+margin-top: 21px;
+}
+
+.foto_about_right {
+    float: left;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 115px;
+    margin-bottom: 115px;
+    text-align: center;
+    border-top: solid gray;
+    padding: 50px;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
